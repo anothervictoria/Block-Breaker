@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4edb062da8a302479a34e083a96de0f, type: 3}
+  m_Name: Third Wave
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 7310701168625877372, guid: 2d1e1c6c5ec3f5842bf40fa7f9aba23e,
+    type: 3}
+  enemyPath: {fileID: 8115042263978660106, guid: 96f16d9d95474454798cb0adcbb321c0,
+    type: 3}
+  moveSpeed: 10
+  quantityOfEnemies: 3
+  timeBetweenSpawns: 0.5
+  spawnRandomFactor: 0.3
